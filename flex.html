@@ -1,0 +1,58 @@
+<html>
+<style>
+    
+    /*控制元素显示顺序*/
+    body{font-size: 30px;}
+    .container{
+    	margin: 30px;
+    	display: -webkit-box;
+    	width: 250px;
+    	height: 150px;
+    	border: 1px dashed #333;
+    	-webkit-box-direction:normal;
+    }
+    .left{
+    	-webkit-box-flex: 1;
+    	padding: 1em;
+    	background-color: red;
+    }
+    .main{
+    	-webkit-box-flex:1;
+    	padding: 1em;
+    	background-color: green;
+    }
+    .right{
+    	-webkit-box-flex:1;
+    	padding: 1em;
+    	background-color: blue;
+    }
+    /*普通的flex*/
+	/*
+	.container{
+		margin: auto;
+		display: -webkit-box;
+		width: 80%;
+		height: 500px;
+	}
+	.left{
+		-webkit-box-flex:3;
+		background-color: red;
+	}
+	.main{
+		width: 600px;
+		background-color: green;
+	}
+	.right{
+		-webkit-box-flex:4;
+		background-color: blue;
+	}
+	*/
+</style>
+	<body>
+		<div class="container">
+			<div class="left">1</div>
+			<div class="main">2</div>
+			<div class="right">3</div>
+		</div>
+	</body>
+</html>
