@@ -71,12 +71,20 @@ a:hover{
 	color: #3576AB;
 	text-decoration: none;
 }
-input,label{vertical-align:middle;}
+input,label{
+	vertical-align:middle;
+}
 .fr{
 	float: right;
 	display: inline;
 }
+.w950{
+	width:950px;
+	margin:0 auto;
+}
 #hd{
+	/*height:50px;
+	line-height:50px;*/
 	background-color: #eff2f5;
 }
 #hd .nav{
@@ -90,6 +98,7 @@ input,label{vertical-align:middle;}
 }
 #hd .logo-search{
 	border-bottom: 1px solid #e3ebec;
+	padding: 20px 0;
 }
 #hd .logo-search a{
 	width: 115px;
@@ -127,6 +136,75 @@ input,label{vertical-align:middle;}
 	text-indent: -999em;
 	cursor: pointer;
 	background: url("../images/nav_mv_bg.png") no-repeat 0 -40px;
+}
+#hd .sub-nav{
+	height: 38px;
+	line-height: 38px;
+}
+#hd .sub-nav a{
+	margin-right: 36px;
+}
+
+#bd{
+	padding: 40px 0 0; 
+}
+
+.hd{
+	height: 50px;
+	line-height: 50px;
+}
+.hd h2{
+	font-size: 14px;
+	font-weight: normal;
+}
+.hd span{
+	margin: 0 0 0 15px;
+}
+.hd span a {
+	margin: 0 15px 0 0 ;
+	font-size: 12px;
+}
+.fl{
+	float: left;
+	display: inline;
+}
+.fr{
+	float: right;
+	display: inline;
+}
+
+#bd .con{
+	width: 590px;
+}
+
+.now .scroll-btn {
+	width: 100px;
+	height: 18px;
+	line-height: 18px;
+	margin: 20px 0 0;
+}
+.now .scroll-btn a {
+	float: right;
+	background: url("../images/slide_swithc_2.png") no-repeat left top;
+	width: 18px;
+	height: 18px;
+	margin: 0 0 0 5px;
+	text-indent: -999em;
+}
+.now .scroll-btn .prev{
+	background-position:  0 0;
+
+}
+.now .scroll-btn .prev:hover{
+	background-position: 0 -18px;
+}
+.now .scroll-btn .next{
+	background-position:  -18px 0;
+
+}
+.now .scroll-btn .next:hover{
+	background-position:  -18px -18px;
+
 }
 /*module css*/
 
