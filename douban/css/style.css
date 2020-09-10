@@ -204,7 +204,11 @@ input,label{
 }
 .now .scroll-btn .next:hover{
 	background-position:  -18px -18px;
-
+}
+.now .scroll-btn .num {
+	float: right;
+	margin: 0 10px 0 0;
+	color: #666;
 }
 /*module css*/
 
