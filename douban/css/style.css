@@ -148,7 +148,9 @@ input,label{
 #bd{
 	padding: 40px 0 0; 
 }
-
+.borderbom{
+	border-bottom: 1px solid #eaeaea;
+}
 .hd{
 	height: 50px;
 	line-height: 50px;
@@ -209,6 +211,65 @@ input,label{
 	float: right;
 	margin: 0 10px 0 0;
 	color: #666;
+}
+.bd{
+	padding: 18px 0;
+}
+.star{
+	background: url("../images/midstars.gif") no-repeat 0 0;
+	display: inline-block;
+	width: 55px;
+	height: 11px;
+	margin: 0 5px;
+}
+.star5{
+	background-position: 0 -55px;
+}
+.star7{
+	background-position: 0 -33px;
+}
+.piclist li{
+	float: left;
+	display: inline;
+	text-align: center;
+}
+.piclist li h3{
+	font-size: 12px;
+	margin: 12px 0 10px;
+	font-weight: normal;
+}
+.buyBtn{
+	background: url("../images/buyBtn.gif") no-repeat 0 0;
+	width: 90px;
+	height: 24px;
+	border: 0;
+	line-height: 24px;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	cursor: pointer;
+}
+.now .piclist{
+	width: 700px;
+}
+.now .piclist li{
+	margin: 0 24px 0 0;
+	width: 128px
+}
+.piclist li .score{
+	color: #f54d06;
+	text-align: center;
+}
+.piclist li img {
+	width:128px;
+	height: 180px;
+}
+.piclist li h3{
+	font-size: 14px;
+
+}
+.piclist li h3 a {
+	color:#333;
 }
 /*module css*/
 
