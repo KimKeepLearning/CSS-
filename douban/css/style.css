@@ -248,6 +248,7 @@ input,label{
 	font-size: 12px;
 	text-align: center;
 	cursor: pointer;
+	margin:10px 0 0;
 }
 .now .piclist{
 	width: 700px;
@@ -264,13 +265,22 @@ input,label{
 	width:128px;
 	height: 180px;
 }
-.piclist li h3{
+.now .piclist li h3{
 	font-size: 14px;
+	margin: 0 0 10px 0;
 
 }
-.piclist li h3 a {
+.now .piclist li h3 a {
 	color:#333;
 }
-/*module css*/
-
-/*index css*/
+.hot .piclist{
+	width: 700px;
+}
+.hot .piclist li {
+	margin: 0 18px 0 0;
+	width: 100px;
+}
+.hot .piclist li img{
+	width: 100px;
+	height: 148px;
+}
