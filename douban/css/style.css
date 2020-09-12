@@ -284,8 +284,16 @@ input,label{
 	width: 100px;
 	height: 148px;
 }
-.pic-text li {
+.pic-text li{
 	float: left;
+
+}
+
+.pic-text li .score{
+	color:#666;
+}
+
+.user .pic-text li {
 	width: 295px;
 	margin: 0 0 20px 0;
 	line-height: 24px;
@@ -295,15 +303,18 @@ input,label{
 	display: inline;
 	margin: 0 10px 0 0;
 }
-.pic-text li h3{
+.user .pic-text li h3{
 	font-size: 14px;
 	margin: 0 0 10px 0;
 	font-weight: normal;
 }
-.pic-text li h3, .pic-text li p{
+.user .pic-text li h3, .user .pic-text li p{
 	margin: 0 0 0 60px;
 }
-.pic-text li p{
+.user .pic-text li p{
 	color: #666;
+}
+.comment .pic-text li{
+	padding: 25px 0;
 }
 /*.piclist li img{display:block;}*/
