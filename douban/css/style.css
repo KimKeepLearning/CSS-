@@ -398,3 +398,16 @@ input,label{
 .list .bd {
 	padding-top: 5px;
 }
+
+.top .piclist{
+	width: 700px;
+}
+
+.top .piclist li{
+	margin: 0 11px 0 0;
+	/*width: 68px;*/
+}
+.top .piclist li img{
+	width: 68px;
+	height: 98px;
+}
