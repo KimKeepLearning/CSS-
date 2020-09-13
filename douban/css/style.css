@@ -170,10 +170,7 @@ input,label{
 	float: left;
 	display: inline;
 }
-.fr{
-	float: right;
-	display: inline;
-}
+
 
 #bd .con{
 	width: 590px;
@@ -318,3 +315,86 @@ input,label{
 	padding: 25px 0;
 }
 /*.piclist li img{display:block;}*/
+
+#bd .side{
+	width: 310px;
+}
+
+.fr{
+	float: right;
+	display: inline;
+}
+
+.search-cinema{
+	background: #f5f3d2;
+	padding: 10px;
+}
+
+.search-cinema .like-select{
+	width: 67px;
+	margin: 0 5px 0 0;
+	color: #666;
+	line-height: 24px;
+}
+
+.search-cinema .like-select #city{
+	width: 60px;
+	height: 24px;
+	background: url("../images/city_select_arrow.png") no-repeat 50px center #fff;
+	border: 1px solid #e0e0e0;
+	padding: 0 0 0 5px;
+	cursor: pointer;
+}
+.search-cinema .like-select ul{
+	padding: 0 5px;
+	background: #fff;
+	border: 1px solid #e0e0e0;
+	width: 55px;
+	display: none;
+}
+.search-cinema .search{
+	float: left;
+	border: 1px solid #e0e0e0;
+	width: 202px;
+	height: 24px;
+	background: #fff;
+}
+.search-cinema .search .searchBox{
+	border: 0;
+	font-size: 12px;
+	color: #bfbfbf;
+	width: 170px;
+	height: 22px;
+	line-height: 22px;
+	padding: 0 5px;
+}
+.search-cinema .search .searchBtn{
+	border:0;
+	text-indent: -999em;
+	background: url("../images/focus_search.png") -14px 0;
+	width: 12px;
+	height: 12px;
+	cursor: pointer;
+	margin: 0 5px 0 0;
+
+}
+.class ul li{
+	float: left;
+	width: 40px;
+	line-height: 28px;
+}
+
+.list ul li{
+	border-bottom: 1px solid #eaeaea;
+	height: 33px;
+	line-height: 33px;
+}
+.list ul li span{
+	display: inline-block;
+	width: 20px;
+	/**zoom:1;*display:inline;*/
+	text-align: center;
+}
+.list .bd {
+	padding-top: 5px;
+}
