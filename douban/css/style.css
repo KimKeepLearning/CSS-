@@ -436,3 +436,13 @@ input,label{
 	color: #4d4d4d;
 	margin: 0 0 0 60px;
 }
+#ft{
+	color: #999;
+	border-top: 1px dashed #ddd;
+	line-height: 30px;
+	padding: 0 0 30px;
+	font-family:Arial;
+}
+#ft a{
+	margin: 0 5px;
+}
