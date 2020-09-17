@@ -285,7 +285,7 @@ input,label{
 	color: #f54d06;
 	text-align: center;
 }
-.piclist li img {
+.now .piclist li img {
 	width:128px;
 	height: 180px;
 }
@@ -522,3 +522,104 @@ input,label{
 .intro-star .film-star .num{
 	margin: 10px 0 5px 5px;
 }
+
+.mystar {margin: 25px 0 0;}
+
+.mystar .recommend{
+	width: 40px;
+	height: 19px;
+	text-align: center;
+	line-height: 19px;
+	float: right;
+	background: #f2f8f2;
+	border: 1px solid #e3f1ed;
+}
+.mystar .recommend a{
+	color: #4f946e;
+}
+.mystar .op1 a{
+	background: url("../images/btn.gif") no-repeat 0 0;
+	display: inline-block;
+	width: 49px;
+	height: 22px;
+	line-height: 22px;
+	text-align: center;
+	margin: 0 10px 0 0;
+	color: #000;
+}
+
+.mystar .op1 .givestar{
+	vertical-align: middle;
+}
+.graystar{
+	background: url("../images/nst.gif") no-repeat 0 center;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.mystar .op2{
+	margin: 5px 0 30px 0;
+}
+
+.mystar .op2 a{
+	margin: 0 10px 0 0;
+	padding: 0 0 0 17px;
+}
+
+.mystar .op2 .brief{
+	background: url("../images/short-comment.gif") no-repeat 0 50%;
+}
+.mystar .op2 .long{
+	background: url("../images/add-review.gif") no-repeat 0 50%;
+}
+.mystar .op2 .share{
+	background: url("../images/a1.png") no-repeat 100% 50%;
+	padding: 0 10px 0 0;
+}
+.synopsis h3{
+	font-weight: normal;
+	color: #007722;
+	font-size: 15px;
+}
+.synopsis .bd{
+	padding: 5px 0 30px;
+}
+.synopsis .bd p{
+	text-indent: 2em;
+}
+
+.pic h3{
+	font-weight: normal;
+	color: #007722;
+	font-size: 15px;
+}
+
+.pic h3 span {
+	font-size: 12px;
+	color: #666;
+}
+
+.pic h3 span a {
+	margin: 0 5px;
+}
+.pic .bd{
+	padding: 5px 0 30px;
+}
+.pic .bd p{
+	text-indent: 2em;
+}
+.pic .bd .piclist li{
+	position: relative;
+	margin: 0 2px 0 0;
+}
+
+.pic .bd .piclist li{position:relative;margin:0 2px 0 0;}
+.pic .bd .piclist .play{width:178px;height:100px;position:absolute;top:0;left:0;cursor:pointer;}
+.play{
+	background: url("../images/play_btn.png") no-repeat 50% 50%;
+}
+
+
