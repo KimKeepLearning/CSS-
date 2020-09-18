@@ -622,4 +622,40 @@ input,label{
 	background: url("../images/play_btn.png") no-repeat 50% 50%;
 }
 
+.filmbrief h3{
+	font-weight: normal;
+	color: #007722;
+	font-size: 15px;
+}
+
+.filmbrief .isay{
+	height: 26px;
+	text-align: center;
+	line-height: 26px;
+	background: #fae9da;
+	color: #ca6445;
+	padding: 0 10px;
+	font-size: 12px;
+}
+.filmbrief h3 span{
+	font-size: 12px;
+	color: #666;
+}
+.filmbrief h3 span a{
+	margin: 0 5px;
+}
+.filmbrief .bd{
+	padding: 5px 0 30px;
+}
+.filmbrief .bd dl{
+	margin: 0 0 8px 0;
+}
+.filmbrief .bd dd, .filmbrief .bd dt{
+	border-bottom: 1px dashed #ddd;
+	padding: 8px 0;
+}
+
+.filmbrief .name em{
+	color: #666;
+}
 
