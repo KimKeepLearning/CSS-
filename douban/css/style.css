@@ -53,6 +53,10 @@ legend{
 	clear: both;
 	height: 0;
 }
+.fl{
+	float: left;
+	display: inline;
+}
 *.cf{
 	zoom:1;
 }
@@ -166,10 +170,7 @@ input,label{
 	margin: 0 15px 0 0 ;
 	font-size: 12px;
 }
-.fl{
-	float: left;
-	display: inline;
-}
+
 
 
 #bd .con{
@@ -659,3 +660,79 @@ input,label{
 	color: #666;
 }
 
+.filmlong h3{
+	font-weight: normal;
+	color: #007722;
+	font-size: 15px;
+}
+
+.filmlong h3 .isay{
+	height: 26px;
+	line-height: 26px;
+	text-align: center;
+	background: #fae9da;
+	color: #ca6445;
+	padding: 0 10px;
+	font-size: 12px;
+}
+
+.filmlong h3 span{
+	font-size: 12px;
+	color: #666;
+}
+.filmlong h3 span a{
+	margin: 0 5px;
+}
+
+.filmlong .bd{
+	padding: 10px 0 30px;
+}
+.filmlong .bd .comm dt{
+	background: #f0f3f5;
+	height: 36px;
+	line-height: 36px;
+}
+.filmlong .bd .comm dt img{
+	float: left;
+	margin: 0 15px 0 0;
+	display: inline;
+}
+.filmlong .bd .comm dt h3{
+	background: url("../images/review-expand.png") no-repeat right center;
+	margin: 0 20px 0 0;
+}
+.filmlong .bd .comm dd{
+	padding: 10px 0 0;
+}
+.filmlong .name em{
+	color: #666;
+	margin: 0 0 0 5px;
+}
+.filmlong .ope{
+	padding: 10px 0 20px;
+	color: #666;
+}
+.filmlong .ope a{
+	margin: 0 0 0 20px;
+}
+
+.buy{
+	background: #f0f3f5;
+	padding: 20px 0 10px;
+	margin: 0 0 40px 0;
+}
+.buy a{
+	display: block;
+	background: #268dcd;
+	color: #fff;
+	width: 160px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	margin: 0 auto;
+}
+.buy p{
+	text-align: center;
+	color: #999；
+	line-height:30px;
+}
