@@ -31,7 +31,7 @@ html, body{
 /*header*/
 header{
 	height: 625px;
-	overflow: hidden;
+	/*overflow: hidden;*/
 	border-bottom: 2px solid #2a2a2a;
 	background: url("../images/header-pattern.gif") 50% 0 #1d1d1d;
 }
@@ -79,6 +79,9 @@ header nav ul li a{
 	text-decoration: none;
 	width: 80px;
 	text-align: center;
+	height: 31px;
+	line-height: 31px;
+	font-size: 14px;
 }
 
 header nav ul li a:hover, header nav ul li a.current{
@@ -86,4 +89,97 @@ header nav ul li a:hover, header nav ul li a.current{
 	border-radius: 5px;
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
+}
+
+#faded{
+	position: relative;
+	left: 0;
+	top: 161px;
+	padding-bottom: 20px;
+}
+
+#faded .rap{
+	position: relative;
+	background: url(../images/img-wrapper-bg.jpg) no-repeat 50% 0 #d92400;
+	border: 1px solid #e46b00;
+	width: 589px;
+	height: 416px;
+	border-radius: 8px;
+	-moz-border-radius:8px; 	
+	-webkit-border-radius:8px; 
+	box-shadow: -2px 8px 5px rgba(0,0,0,.6);
+	-moz-box-shadow:-2px 8px 5px rgba(0,0,0,.6); 	
+	-webkit-box-shadow:-2px 8px 5px rgba(0,0,0,.6);
+	z-index: 10;
+	overflow: hidden;
+}
+#faded .rap img{
+	margin: 9px 0 0 9px;
+}
+
+#faded ul.pagination{
+	position: absolute;
+	left: 537px;
+	top: 10px;
+	background: url(../images/pagination-splash.gif) no-repeat 0 0 #2a2a2a;
+	border:1px solid #3a3a3a;
+	border-radius: 8px;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+
+	box-shadow: -2px 8px 5px rgba(0,0,0,.4);
+	-moz-box-shadow:-2px 8px 5px rgba(0,0,0,.4);
+	-webkit-box-shadow:-2px 8px 5px rgba(0,0,0,.4);
+	z-index:9;
+	padding: 25px 0 25px 0;
+}
+
+#faded ul.pagination li{
+	width: 429px;
+	position: relative;
+	background:url(../images/line-bot.gif) no-repeat 77px 100%; 	
+	padding-bottom: 1px;
+	height: 1%;
+}
+
+#faded ul.pagination li:last-child{
+	background: none;
+}
+#faded ul.pagination li a{
+	display: block;
+	padding: 16px 40px 14px 77px;
+	overflow: hidden;
+	color: #7f7f7f;
+	text-decoration: none;
+	font-size: 9pt;
+	line-height: 28px;
+	height: 1%;
+	cursor: pointer;
+	-moz-transition:all 0.3s ease-out;
+	-o-transition:all 0.3s ease-out; 	/* Opera 10.5 */ 	
+	-webkit-transition:all 0.3s ease-out; 	/* Saf3.2+,Chrome */
+}
+
+#faded ul.pagination li a:hover,#faded ul.pagination li.current a {
+	background-color:#1d1d1d;   
+	color:#fff; 
+}
+#faded ul.pagination li a img{
+	float: left;
+	margin-right: 28px;
+}
+#faded ul.pagination li span.left{
+	float: left;
+	width: 100px;
+}
+#faded ul.pagination li span.right{
+	float: left;
+	width: 80px;
+}
+
+#faded .extra-banner{
+	position: absolute;
+	left: 485px;
+	top: 307px;
+	z-index:11;
 }
