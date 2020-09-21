@@ -293,3 +293,56 @@ p{
 	-moz-transform:scale(1.5);
 	-o-transform:scale(1.5);
 }
+aside article{
+	padding-bottom: 0;
+	margin-bottom: 35px;
+}
+aside article.last{
+	margin-bottom: 0;
+}
+
+.box{
+	background:url(../images/box-bg.gif) 0 100% repeat-x #b5c83c;
+	padding: 24px 18px 40px 20px;
+	border: 1px solid #c9dd47;
+	border-radius: 10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	color:#fff;
+	position:relative;
+}
+
+.box h2{
+	color: #121212;
+	background: url(../images/bd_bot.gif) 0 100% repeat-x;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	line-height: 30px;
+	letter-spacing: -1px;
+}
+.accordion dt{
+	font-size: 16px;
+	line-height: 1.2em;
+	color: #000;
+	position: relative;
+	padding: 10px 0 5px 40px;
+	height: 1%;
+}
+.accordion dt img{
+	position: absolute;
+	left: 0;
+	top: 10px;
+}
+.accordion dt a {
+	color:#000;
+}
+.list1 li{
+	background: url(../images/arrow1.gif) no-repeat 0 7px;
+	padding: 0 0 6px 15px;
+	font-size: 9pt;
+	zoom:1;
+}
+.list1 li a{
+	color: #fff;
+	font-weight: bold;
+}
