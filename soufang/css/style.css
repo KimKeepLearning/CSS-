@@ -411,3 +411,15 @@ figure.last{
 	overflow: hidden;
 	padding-bottom: 20px;
 }
+
+.box h3{
+	font-weight: normal;
+	color: #000;
+	font-size: 16px;
+	line-height: 22px;
+	text-transform: none;
+}
+
+.box h3 a{
+	color: #000;
+}
