@@ -222,7 +222,7 @@ h2{
 	line-height: 1.2em;
 	font-style: normal;
 	letter-spacing: -1px;
-	margin-bottom: 5px;
+	margin-bottom: .5em;
 }
 h3{
 	font-size: 1em;
@@ -387,4 +387,27 @@ footer .copy span{
 }
 footer .copy a {
 	color:#777;
+}
+
+figure{
+	margin: 0 24px 0 0;
+	float: left;
+	padding:4px;
+	background: #fff;
+	position: relative;
+	border-radius: 6px;
+}
+
+.wrapper{
+	width: 100%;
+	overflow: hidden;
+}
+
+figure.last{
+	margin-right: 0;
+}
+.img-box{
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 20px;
 }
