@@ -346,3 +346,45 @@ aside article.last{
 	color: #fff;
 	font-weight: bold;
 }
+
+footer{
+	border-top: 1px solid #292929;
+	padding: 40px 0 40px 0;
+}
+
+footer .container_16 {
+	font-size:.625em;
+}
+
+footer nav ul{
+	overflow: hidden;
+	margin: 0 0 6px -11px;
+}
+
+footer nav ul li{
+	display: inline;
+	margin-left: -1px;
+}
+
+footer nav ul li a{
+	color:#777;
+	border-left: 1px solid #777;
+	padding: 0 9px 0 11px;
+	text-decoration: none;
+	-moz-transition:all 0.3s ease-out;
+		/* FF3.7+ */
+				-o-transition:all 0.3s ease-out;
+	/* Opera 10.5 */
+				-webkit-transition:all 0.3s ease-out;
+	/* Saf3.2+,Chrome */
+}
+footer nav ul li a:hover{
+	color: #e1e1e1;
+}
+
+footer .copy span{
+	text-transform: uppercase;
+}
+footer .copy a {
+	color:#777;
+}
