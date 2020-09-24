@@ -430,3 +430,67 @@ figure.last{
 figure.alt{
 	margin-right: 5px;
 }
+.address{
+	float: left;
+	margin: 0 30px 10px 0;
+	width: 216px;
+}
+.address.last { 	
+	margin-right:0; 
+}
+.address dt { 	
+	margin-bottom:4px; 	
+	text-transform:uppercase; 
+}
+
+.address dd { 	
+	clear:both; 
+}
+.address dd span { 	float:left; 	padding-right:25px; }
+.address dd a { 	color:#c0c0c0; }
+
+input,select,textarea { 	
+	font-family:Arial,Helvetica,sans-serif; 	
+	font-size:9pt; 	vertical-align:middle; 	
+	font-weight:normal; 
+}
+#contacts-form fieldset{
+	border: none;
+}
+#contacts-form label{
+	display: block;
+	height: 26px;
+	overflow: hidden;
+}
+
+#contacts-form span{
+	float: left;
+	width: 66px;
+}
+
+#contacts-form input{
+	float: left;
+	background: #1e1e1e;
+	border: 1px solid #a4a4a4;
+	width: 210px;
+	padding: 1px 5px 1px 5px;
+	color: #fff;
+}
+
+#contacts-form textarea{
+	float: left;
+	width:210px;
+	padding:1px 5px 1px 5px;
+	height:195px;
+	background: #1e1e1e;
+	border: 1px solid #a4a4a4;
+	overflow: auto;
+	color: #fff;
+}
+
+#contacts-form .button{
+	float: right;
+	margin-left: 16px;
+	margin-top: 14px;
+	
+}
